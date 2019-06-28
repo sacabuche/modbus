@@ -13,7 +13,6 @@ import (
 type ClientHandler interface {
 	Packager
 	Transporter
-	Connector
 }
 
 type client struct {
